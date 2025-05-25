@@ -10,5 +10,6 @@ setup(
         "pytest",
         "pandas",
         "scikit-learn",
+        "sklearn"
     ],
 )

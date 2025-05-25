@@ -14,10 +14,10 @@ from sklearn.linear_model import ElasticNet
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 
-from homework.internals.calculate_metrics import calculate_metrics
-from homework.internals.prepare_data import prepare_data
-from homework.internals.print_metrics import print_metrics
-from homework.internals.save_model_if_better import save_model_if_better
+from homework.src.internals.calculate_metrics import calculate_metrics
+from homework.src.internals.prepare_data import prepare_data
+from homework.src.internals.print_metrics import print_metrics
+from homework.src.internals.save_model_if_better import save_model_if_better
 
 # dividir los datos en entrenamiento y testing
 x_train, x_test, y_train, y_test = prepare_data(
