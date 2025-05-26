@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 
 def prepare_data(file_path, test_size, random_state):
 
-    df = pd.read_csv(file_path, sep=";")
+    df = pd.read_csv(file_path, sep=",")
 
 # preparacion de datos
     y = df["quality"]
